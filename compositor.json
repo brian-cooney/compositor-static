@@ -1,0 +1,83 @@
+{
+  "name": "brian-cooney/compositor-static",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/brian-cooney/compositor-static",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "compositor-static",
+      "subhead": null,
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "compositor-static: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "brian-cooney",
+          "repo": "compositor-static"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/brian-cooney/compositor-static",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/brian-cooney",
+          "text": "brian-cooney"
+        }
+      ]
+    }
+  ]
+}
